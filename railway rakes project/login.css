@@ -1,0 +1,178 @@
+body {
+    background-color: orangered;
+    text-align: center;
+    padding: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+h3 {
+    background-color: rgba(255, 64, 0, 0.944);
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(0, 0, 0);
+    padding: 0%;
+    font-size: 20px;
+    background-position: fixed;
+}
+
+.videopart {
+    background-color: black;
+    background-position: fixed;
+}
+
+div {
+    text-align: center;
+   
+}
+
+.container1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    align-items: center;
+}
+
+.header {
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin-top:-35%;
+     
+}
+
+h1 {
+    color: white;
+    margin: 0;
+}
+
+h6 {
+    color: aliceblue;
+    margin: 5px 0;
+}
+
+nav {
+    width: 100%; 
+    background-color: rgb(232, 70, 33); 
+    margin-bottom: 70px; 
+    padding: 5px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.left-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.left-menu li {
+    margin-left: 20px; 
+}
+
+.left-menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.left-menu li a:hover {
+    background-color: #575757; 
+    border-radius: 5px;
+}
+
+.right-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.right-menu li {
+    margin-left: 20px; 
+}
+
+.right-menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.right-menu li a:hover {
+    background-color: #575757; 
+    border-radius: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+hr {
+    margin-top: -2px; 
+}
+
+form {
+    background-color: #fafafa;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 0px;
+    width: 40%; /* Further reduced form size */
+    text-align: left;
+    margin-top:-60%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    margin-left:20px;
+}
+
+input[type="text"], input[type="password"], input[list] {
+    width: 80%;
+    padding: 8px;
+    margin: 6px 0;
+    margin-left:10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(255, 68, 0);
+    color: white;
+    padding: 4px;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    position: center;
+    margin-left:80px;
+}
+
+button:hover {
+    background-color: #45a049;
+    color: rgb(240, 242, 255);
+    text-align: center;
+}
+
+hr {
+    margin-top: -10px;
+}

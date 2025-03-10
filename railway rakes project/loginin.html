@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Rek Parivahan</title>
+    <link rel="stylesheet" href="login.css">
+    <!-- Include Particles.js library for snow effect -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Rek Parivahan</h1>
+        <h6>the coal supplier solutions</h6>
+    </div>
+    <hr>
+    <div class="videopart">
+        <nav>
+            <ul class="left-menu">
+                <li><a href="frontend.html">Home</a></li>
+                <li><a href="">Bookings</a></li>
+                <li><a href="">Help Center</a></li>
+            </ul>
+            <ul class="right-menu">
+                <li><a href="loginin.html">Login</a></li>
+                <li><a href="">Register</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br><br>
+    <br><br>
+    <br><br>
+    <!-- Particle Container for Snow Effect -->
+    <div id="particles-js"></div>
+
+    <!-- Your existing content --><br>
+     <br>
+     <br>
+    <div class="login-container">
+        
+        
+            
+            <form>
+                <h3>REK PARIVAHAN Login</h3>
+                <!-- Username Field -->
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" title="Username">
+              
+                <!-- Password Field -->
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" title="Password">
+                <br><br>
+                <br>
+                <button type="submit">Login</button><br>
+                <br>
+              </form>
+              
+    </div>
+
+    <script>
+        // Initialize the snow effect using particles.js
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 100,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#ffffff"
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": true,
+                    "anim": {
+                        "enable": true,
+                        "speed": 1,
+                        "opacity_min": 0
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": true,
+                        "speed": 2,
+                        "size_min": 0.3
+                    }
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 1,
+                    "direction": "bottom",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out"
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+
+        // Form validation function
+        function validateForm() {
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+            let state = document.getElementById("stateInput").value;
+
+            if (username === "" || password === "" || state === "") {
+                alert("Please fill in all fields.");
+            } else {
+                alert("Login successful!");
+            }
+        }
+    </script>
+</body>
+</html>
